@@ -10,9 +10,9 @@
   "keywords": [],
   "author": "DevMonk",
   "license": "MIT",
-
   "dependencies": {
     "axios": "^1.8.3",
+    "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "spotify-web-api-node": "^5.0.2"
   }
