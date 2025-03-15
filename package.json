@@ -1,0 +1,19 @@
+{
+  "name": "riffviz",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "description": "A music visualization tool",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "DevMonk",
+  "license": "MIT",
+
+  "dependencies": {
+    "axios": "^1.8.3",
+    "express": "^4.21.2",
+    "spotify-web-api-node": "^5.0.2"
+  }
+}
