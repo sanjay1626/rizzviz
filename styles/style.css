@@ -79,3 +79,62 @@ main {
 .playlist-item-info p {
     margin-bottom: 1em;
 }
+.ai-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#playlistCanvas {
+    border: 2px solid black;
+    display: block;
+    margin: 10px auto;
+    background-color: white;
+}
+
+#generatedImage {
+    max-width: 512px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+#download-art {
+    display: none;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #1db954;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+* Center the AI Image Section */
+.ai-image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* Centers content horizontally */
+    justify-content: center; /* Centers content vertically */
+    text-align: center;
+    height: 50vh; /* Adjust based on layout */
+}
+
+/* Center the Button */
+#generate-btn {
+    display: block;
+    margin: 20px auto; /* Centers button horizontally */
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #1DB954; /* Spotify Green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Add hover effect */
+#generate-btn:hover {
+    background-color: #17a34a;
+}
